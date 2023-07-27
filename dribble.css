@@ -1,12 +1,11 @@
 html {
   font-size: 100%;
-  width: auto;
 }
 
 body {
   font-weight: bold;
   color: black;
-  width: fit-content;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -177,10 +176,8 @@ body {
   width: 68px;
   cursor: pointer;
   position: relative;
-  display: flex;
 }
 .Halo-logo .tooltip1 {
-  display: flex;
   position: absolute;
   width: 35px;
   height: 25px;
