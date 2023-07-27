@@ -1,0 +1,753 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-weight: bold;
+  color: black;
+}
+
+/* GENERAL ELEMENTS */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica, sans-serif;
+  font-size: 90%;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+.section-a {
+  display: flex;
+  text-decoration: none;
+  width: 500px;
+  justify-content: space-between;
+  padding-left: 25px;
+  flex-shrink: 0;
+  padding-right: 300px;
+}
+.section-a1,
+.section-a2,
+.section-a3,
+.section-a4,
+.section-a5 {
+  text-decoration: none;
+  color: black;
+}
+
+.section-a1:hover,
+.section-a2:hover,
+.section-a3:hover,
+.section-a4:hover,
+.section-a5:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.section_b {
+  padding-right: 490px;
+}
+.section-b {
+  display: flex;
+  flex: flex1;
+  position: relative;
+}
+
+.section-b .tooltip {
+  position: absolute;
+  color: black;
+  width: 300px;
+  background-color: white;
+  height: 38px;
+  font-size: 15px;
+  bottom: -40px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  left: 30px;
+  pointer-events: none;
+}
+
+.section-b:hover .tooltip {
+  opacity: 1;
+}
+
+.section-b:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.section-c {
+  display: flex;
+  width: 360px;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 15px;
+}
+
+.section-c1 {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.section-c1:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.section-c2 {
+  padding-right: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section-c2:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.section-c3 {
+  text-decoration: none;
+  color: black;
+  height: 49px;
+  width: 85px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgb(245, 245, 242);
+}
+
+.section_c3 {
+  padding-right: 16px;
+}
+.section_c3:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.section-c4 {
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  height: 51px;
+  width: 128px;
+  padding: 6px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.section-c4:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.dribble-a {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-left: 500px;
+  padding-right: 200px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.Halo-logo {
+  display: flex;
+  padding-right: 7px;
+}
+.Halo_logo1 {
+  width: 68px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+}
+.Halo-logo .tooltip1 {
+  display: flex;
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  border-radius: 200px;
+  left: 545px;
+  top: 210px;
+  cursor: pointer;
+}
+
+.Halo-logo .tooltip {
+  position: absolute;
+  color: black;
+  width: 100px;
+  background-color: white;
+  height: 33px;
+  font-size: 15px;
+  top: 230px;
+  left: 550px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Halo-logo:hover .tooltip {
+  opacity: 1;
+}
+
+.title-info {
+  font-family: sans-serif, Arial;
+  font-size: 100%;
+  font-weight: moderate;
+  width: 500px;
+  line-height: 0.6;
+}
+
+.text-title2 {
+  font-weight: 100;
+  font-size: 15px;
+}
+.favorite-bookmark {
+  display: flex;
+  padding-left: 120px;
+}
+.favorite,
+.bookmark-image {
+  width: 17px;
+}
+
+.favorite_button {
+  padding-right: 13px;
+  position: relative;
+}
+.favorite-button,
+.bookmark-button {
+  background-color: white;
+  width: 40px;
+  border-color: rgb(244, 239, 239);
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.favorite-bookmark2 .tooltip {
+  position: absolute;
+  color: black;
+  width: 110px;
+  top: 220px;
+  background-color: white;
+  height: 33px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+.favorite_button .tooltip1 {
+  position: absolute;
+  color: black;
+  width: 110px;
+  top: 45px;
+  background-color: white;
+  height: 33px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.favorite-bookmark2:hover .tooltip,
+.favorite_button:hover .tooltip1 {
+  opacity: 1;
+}
+
+.Image1 {
+  display: flex;
+  flex: flex1;
+  width: 1035px;
+  padding-left: 368px;
+  border-radius: 7px;
+  padding-top: 8px;
+}
+
+.video-a {
+  padding-left: 370px;
+  padding-top: 55px;
+  width: 1030px;
+  height: 450px;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+
+.Halo-lab {
+  font-size: 30px;
+  padding-left: 790px;
+  width: 200px;
+  padding-bottom: 160px;
+}
+.Halo-lab1 {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+.Halo-lab1:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.horizontal-1 {
+  width: 1170px;
+}
+
+.horizontal1 {
+  display: flex;
+  padding-top: 36px;
+}
+.horizontal_1 {
+  padding-bottom: 60px;
+  display: flex;
+  position: relative;
+  padding-left: 310px;
+}
+
+.Image-2 {
+  position: absolute;
+  display: flex;
+}
+
+.Image2 {
+  padding-left: 515px;
+  width: 120px;
+}
+.Hire-section {
+  padding-left: 751px;
+  padding-top: 4px;
+  font-family: Helvetica, sans-serif;
+}
+.Halo-link {
+  text-decoration: none;
+  color: black;
+  font-size: 130%;
+  padding-left: 80px;
+  font-weight: 600;
+}
+
+.creating-star {
+  font-size: 95%;
+  font-weight: 100;
+}
+
+.Hire-button {
+  width: 100px;
+  padding: 10px;
+  font-size: 95%;
+  font-weight: bold;
+  color: white;
+  background-color: #ea4c89;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Hire-button:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.Hire_us {
+  padding-left: 85px;
+  padding-top: 4px;
+  position: relative;
+}
+
+.Hire_us .tooltip {
+  position: absolute;
+  color: white;
+  width: 200px;
+  top: -60px;
+  left: 30px;
+  background-color: black;
+  height: 60px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+  font-weight: 100;
+}
+
+.Hire_us:hover .tooltip {
+  opacity: 1;
+}
+.landingpage_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1185px;
+  padding-left: 305px;
+  padding-top: 25px;
+  font-size: 16px;
+}
+.landingpage-info {
+  font-family: Helvetica;
+  font-weight: 800;
+}
+
+.view-profile {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-left: 300px;
+  padding-bottom: 150px;
+}
+
+.Landing_page1,
+.Landing_page2,
+.Landing_page3,
+.Landing_page4 {
+  width: 270px;
+  height: 210px;
+}
+
+.like-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-family: helvetica;
+  font-size: 12px;
+  font-weight: 100;
+  padding-left: 850px;
+  height: 100px;
+  padding-bottom: 20px;
+}
+.L-button,
+.F-button {
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 2px rgb(169, 164, 164);
+  border-radius: 5px;
+  font-size: 11px;
+  height: 25px;
+  width: 25px;
+}
+.buttom-content {
+  display: flex;
+  height: 400px;
+  padding-left: 120px;
+  padding-top: 50px;
+  font-weight: lighter;
+  font-family: helvetica;
+  font-size: 15px;
+  background-color: rgb(250, 250, 252);
+}
+.social-media-section {
+  width: 270px;
+}
+
+.buttom-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1015px;
+  padding-left: 114px;
+  padding-bottom: 450px;
+}
+
+.pink-logo {
+  width: 120px;
+  padding-bottom: 5px;
+}
+.pink-logo:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.about-dribble {
+  line-height: 20px;
+}
+
+.link-icon {
+  display: flex;
+  width: 160px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.icon1,
+.twitter-logo,
+.facebook-logo,
+.instagram-logo,
+.pinterest-logo {
+  width: 20px;
+}
+
+.icon1 {
+  width: 18px;
+}
+.twitter-logo {
+  width: 19px;
+}
+.facebook-logo {
+  width: 29px;
+}
+.instagram-logo {
+  width: 26px;
+}
+.pinterest-logo {
+  width: 18px;
+}
+.go-pro,
+.explore,
+.design,
+.overtime,
+.playoffs,
+.code,
+.hire-designers,
+.post-job,
+.post-freelance,
+.search,
+.brands,
+.advertise,
+.company,
+.about,
+.careers,
+.support,
+.media,
+.testimonials,
+.api,
+.terms,
+.privacy,
+.cookie,
+.directories,
+.design,
+.designers,
+.freelance,
+.tags,
+.places,
+.design,
+.creative,
+.fontspring,
+.font,
+.freelancing {
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  font-weight: 100;
+}
+.for-designers,
+.Hire-designers,
+.brands,
+.company,
+.directories,
+.design-assets,
+.design-resources {
+  font-weight: bold;
+}
+
+.buttom-section1 {
+  display: grid;
+  justify-content: space-between;
+  height: 250px;
+  width: 150px;
+}
+
+.buttom-section2 {
+  display: grid;
+  justify-content: space-between;
+  height: 240px;
+  width: 150px;
+}
+
+.buttom-section3 {
+  display: grid;
+  justify-content: space-between;
+  height: 350px;
+  width: 150px;
+}
+.buttom-section4 {
+  display: grid;
+  justify-content: space-between;
+  height: 380px;
+  width: 150px;
+}
+
+.buttom-section5 {
+  display: grid;
+  justify-content: space-between;
+  height: 250px;
+  width: 150px;
+}
+.last-section {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1540px;
+  padding-top: 80px;
+  padding-left: 122px;
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.last-section1 {
+  background-color: rgb(250, 250, 252);
+}
+.icon {
+  display: flex;
+}
+.icona {
+  height: 35px;
+  padding-left: 5px;
+}
+
+.sidebar {
+  justify-content: end;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  right: 0;
+  align-items: center;
+  height: 280px;
+  justify-content: space-between;
+  padding-top: 55px;
+  padding-right: 15px;
+}
+
+.Halo_logo {
+  width: 55px;
+}
+.feedback {
+  width: 13px;
+  height: 19px;
+}
+.share {
+  width: 14px;
+  height: 15px;
+}
+
+.shot-details {
+  width: 24px;
+  height: 23px;
+}
+
+.save {
+  width: 12px;
+  height: 15px;
+}
+.like {
+  width: 16px;
+  height: 18px;
+}
+
+.btn-feedback,
+.btn-share,
+.btn-shotdetails,
+.btn-save,
+.btn-like {
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 2px rgb(169, 164, 164);
+  border-radius: 5px;
+  font-size: 11px;
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+.btn_feedback .tooltip {
+  position: absolute;
+  color: white;
+  width: 84px;
+  right: 100px;
+  background-color: black;
+  height: 36px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn_share .tooltip {
+  position: absolute;
+  color: white;
+  width: 60px;
+  right: 100px;
+  background-color: black;
+  height: 36px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+.btn_shotdetails .tooltip {
+  position: absolute;
+  color: white;
+  width: 95px;
+  right: 100px;
+  background-color: black;
+  height: 36px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn_save .tooltip {
+  position: absolute;
+  color: white;
+  width: 50px;
+  right: 100px;
+  background-color: black;
+  height: 36px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn_like .tooltip {
+  position: absolute;
+  color: white;
+  width: 45px;
+  right: 100px;
+  background-color: black;
+  height: 36px;
+  font-size: 15px;
+  transition: opacity 0.1s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn_feedback:hover .tooltip {
+  opacity: 1;
+}
+
+.btn_share:hover .tooltip {
+  opacity: 1;
+}
+
+.btn_shotdetails:hover .tooltip {
+  opacity: 1;
+}
+
+.btn_save:hover .tooltip {
+  opacity: 1;
+}
+
+.btn_like:hover .tooltip {
+  opacity: 1;
+}
