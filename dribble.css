@@ -20,7 +20,7 @@ body {
   font-size: 90%;
   align-items: center;
   color: black;
-  font-weight: medium;
+  font-weight: 700;
   padding-top: 20px;
   padding-bottom: 25px;
   padding-left: 15px;
@@ -34,6 +34,7 @@ body {
   padding-left: 25px;
   flex-shrink: 0;
   padding-right: 150px;
+  font-weight: 600;
 }
 .section-a1,
 .section-a2,
@@ -65,15 +66,17 @@ body {
 .section-b .tooltip {
   position: absolute;
   color: black;
-  width: 300px;
+  width: 240px;
   background-color: white;
-  height: 38px;
-  font-size: 15px;
+  height: 25px;
+  font-size: 12px;
   bottom: -40px;
   transition: opacity 0.1s;
   opacity: 0;
   left: 30px;
+  top: 30px;
   pointer-events: none;
+  border: 1px solid black;
 }
 
 .section-b:hover .tooltip {
@@ -190,15 +193,16 @@ body {
 .Halo-logo .tooltip {
   position: absolute;
   color: black;
-  width: 100px;
+  width: 80px;
   background-color: white;
-  height: 33px;
-  font-size: 15px;
-  top: 230px;
-  left: 300px;
+  height: 25px;
+  font-size: 12px;
+  top: 220px;
+  left: 320px;
   transition: opacity 0.1s;
   opacity: 0;
   pointer-events: none;
+  border: 1px solid black;
 }
 
 .Halo-logo:hover .tooltip {
@@ -243,26 +247,30 @@ body {
 .favorite-bookmark2 .tooltip {
   position: absolute;
   color: black;
-  width: 110px;
-  top: 220px;
+  width: 70px;
+  top: 210px;
+  right: 250px;
   background-color: white;
-  height: 33px;
-  font-size: 15px;
+  height: 25px;
+  font-size: 12px;
   transition: opacity 0.1s;
   opacity: 0;
   pointer-events: none;
+  border: 1px solid black;
 }
 .favorite_button .tooltip1 {
   position: absolute;
   color: black;
-  width: 110px;
-  top: 45px;
+  width: 85px;
+  top: 40px;
+  right: -33px;
   background-color: white;
-  height: 33px;
-  font-size: 15px;
+  height: 25px;
+  font-size: 12px;
   transition: opacity 0.1s;
   opacity: 0;
   pointer-events: none;
+  border: 1px solid black;
 }
 
 .favorite-bookmark2:hover .tooltip,
@@ -274,13 +282,14 @@ body {
   display: flex;
   flex: flex1;
   width: 1035px;
-  padding-left: 368px;
+  padding-left: 163px;
   border-radius: 7px;
   padding-top: 8px;
+  cursor: pointer;
 }
 
 .video-a {
-  padding-left: 370px;
+  padding-left: 170px;
   padding-top: 55px;
   width: 1030px;
   height: 450px;
@@ -290,7 +299,7 @@ body {
 
 .Halo-lab {
   font-size: 30px;
-  padding-left: 790px;
+  padding-left: 590px;
   width: 200px;
   padding-bottom: 160px;
 }
@@ -305,7 +314,7 @@ body {
 }
 
 .horizontal-1 {
-  width: 1170px;
+  width: 1120px;
 }
 
 .horizontal1 {
@@ -316,7 +325,7 @@ body {
   padding-bottom: 60px;
   display: flex;
   position: relative;
-  padding-left: 310px;
+  padding-left: 110px;
 }
 
 .Image-2 {
@@ -325,11 +334,11 @@ body {
 }
 
 .Image2 {
-  padding-left: 515px;
+  padding-left: 510px;
   width: 120px;
 }
 .Hire-section {
-  padding-left: 751px;
+  padding-left: 548px;
   padding-top: 4px;
   font-family: Helvetica, sans-serif;
 }
@@ -376,7 +385,7 @@ body {
   left: 30px;
   background-color: black;
   height: 60px;
-  font-size: 15px;
+  font-size: 13px;
   transition: opacity 0.1s;
   opacity: 0;
   pointer-events: none;
@@ -390,8 +399,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1185px;
-  padding-left: 305px;
+  width: 1108px;
+  padding-left: 115px;
   padding-top: 25px;
   font-size: 16px;
 }
@@ -411,8 +420,8 @@ body {
 .landing-page {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
-  padding-left: 300px;
+  width: 1120px;
+  padding-left: 116px;
   padding-bottom: 150px;
 }
 
@@ -420,8 +429,9 @@ body {
 .Landing_page2,
 .Landing_page3,
 .Landing_page4 {
-  width: 270px;
-  height: 210px;
+  width: 257px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .like-section {
@@ -432,7 +442,7 @@ body {
   font-family: helvetica;
   font-size: 12px;
   font-weight: 100;
-  padding-left: 850px;
+  padding-left: 630px;
   height: 100px;
   padding-bottom: 20px;
 }
@@ -448,8 +458,8 @@ body {
 }
 .buttom-content {
   display: flex;
-  height: 400px;
-  padding-left: 120px;
+  height: 330px;
+  padding-left: 70px;
   padding-top: 50px;
   font-weight: lighter;
   font-family: helvetica;
@@ -463,9 +473,9 @@ body {
 .buttom-section {
   display: flex;
   justify-content: space-between;
-  width: 1015px;
-  padding-left: 114px;
-  padding-bottom: 450px;
+  width: 880px;
+  padding-left: 52px;
+  padding-bottom: 50px;
 }
 
 .pink-logo {
@@ -594,12 +604,13 @@ body {
 }
 .last-section {
   display: flex;
-  height: 100px;
+  height: 200px;
   justify-content: space-between;
   align-items: center;
-  width: 1540px;
+  align-content: center;
+  width: 1180px;
   padding-top: 80px;
-  padding-left: 122px;
+  padding-left: 80px;
   font-family: helvetica;
   font-weight: 100;
   font-size: 15px;
