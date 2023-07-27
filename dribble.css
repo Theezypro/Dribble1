@@ -7,7 +7,7 @@ body {
   color: black;
   width: 100%;
   height: auto;
-  margin: auto;
+  min-width: 1000px;
 }
 
 /* GENERAL ELEMENTS */
@@ -166,6 +166,8 @@ body {
   padding-left: 275px;
   align-items: center;
   padding-bottom: 10px;
+  flex-shrink: 0;
+  min-width: 1000px;
 }
 
 .Halo-logo {
@@ -338,6 +340,7 @@ body {
   padding-left: 548px;
   padding-top: 4px;
   font-family: Helvetica, sans-serif;
+  min-width: 300px;
 }
 .Halo-link {
   text-decoration: none;
