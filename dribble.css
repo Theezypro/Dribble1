@@ -1,10 +1,14 @@
 html {
   font-size: 100%;
+  width: auto;
 }
 
 body {
   font-weight: bold;
   color: black;
+  width: fit-content;
+  height: auto;
+  margin: auto;
 }
 
 /* GENERAL ELEMENTS */
@@ -16,7 +20,7 @@ body {
   font-size: 90%;
   align-items: center;
   color: black;
-  font-weight: bold;
+  font-weight: medium;
   padding-top: 20px;
   padding-bottom: 25px;
   padding-left: 15px;
@@ -29,7 +33,7 @@ body {
   justify-content: space-between;
   padding-left: 25px;
   flex-shrink: 0;
-  padding-right: 300px;
+  padding-right: 150px;
 }
 .section-a1,
 .section-a2,
@@ -50,7 +54,7 @@ body {
 }
 
 .section_b {
-  padding-right: 490px;
+  padding-right: 200px;
 }
 .section-b {
   display: flex;
@@ -136,7 +140,6 @@ body {
 .section-c4 {
   text-decoration: none;
   color: black;
-  padding-right: 30px;
   background-color: black;
   color: white;
   font-weight: 700;
@@ -158,8 +161,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 60px;
-  padding-left: 500px;
-  padding-right: 200px;
+  padding-left: 275px;
   align-items: center;
   padding-bottom: 10px;
 }
@@ -180,8 +182,8 @@ body {
   width: 35px;
   height: 25px;
   border-radius: 200px;
-  left: 545px;
-  top: 210px;
+  left: 313px;
+  top: 200px;
   cursor: pointer;
 }
 
@@ -193,7 +195,7 @@ body {
   height: 33px;
   font-size: 15px;
   top: 230px;
-  left: 550px;
+  left: 300px;
   transition: opacity 0.1s;
   opacity: 0;
   pointer-events: none;
